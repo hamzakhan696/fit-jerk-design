@@ -65,6 +65,11 @@ nav h6{
     width: 40% !important;
 }
 
+@media screen and (max-width: 467px) {
+    .section p{
+        font-size: 22px !important;
+    }
+}
 
 @media screen and (max-width: 992px) {
     .section h1{
@@ -113,8 +118,4 @@ nav h6{
         width: 50%;
     }
   }
-  @media screen and (max-width: 467px) {
-    .section p{
-        font-size: 22px !important;
-    }
-}
+ 
