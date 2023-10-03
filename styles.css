@@ -20,11 +20,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-nav h3{
+nav h6{
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 5%;
 }
 .custom-line{
@@ -43,11 +43,11 @@ nav h3{
 .section h1{
     color: rgba(255, 255, 255, 1);
     font-weight: 900;
-    font-size: 60px;
+    font-size: 80px;
 }
 .section p{
     color: rgba(255, 255, 255, 1);
-    font-size: 42px;
+    font-size: 28px;
     font-weight: 400;
 }
 .download-option h6{
@@ -66,18 +66,26 @@ nav h3{
 }
 
 
+@media screen and (max-width: 992px) {
+    .section h1{
+        font-size: 60px;
+    }
+    .section p{
+        font-size: 26px;
+    }
+
+  }
 @media screen and (min-width: 767px) {
     .download-option{
         margin-top: 7%;
     }
   }
+  
 @media screen and (max-width: 767px) {
     .section{
         padding-bottom: 15%;
     }
-    .section-text{
-        text-align: center;
-    }
+    
     .section h1{
         font-size: 40px;
         font-weight: 900;
@@ -90,7 +98,6 @@ nav h3{
         margin-top: 17%;
     }
     .section p{
-        font-size: 28px;
         margin-top: 5%;
     }
     .download-option {
@@ -106,3 +113,8 @@ nav h3{
         width: 50%;
     }
   }
+  @media screen and (max-width: 467px) {
+    .section p{
+        font-size: 22px !important;
+    }
+}
