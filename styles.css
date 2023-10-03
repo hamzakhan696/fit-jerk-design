@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: darkslategrey;
+    background-image: url("images/pattern.png");
+    background-repeat: no-repeat;
+    background-position: center top; /* Center horizontally at the bottom */
+    font-family: 'Montserrat', sans-serif;
+}
+nav h3{
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.custom-line{
+    background-color: rgba(255, 255, 255, 1);
+}
+.social-icons{
+    color: #fff;
+    font-size: 30px;
+}
+
+/* section */
+.section{
+    padding-bottom: 5%;
+}
+
+.section h1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 60px;
+}
+.section p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 42px;
+    font-weight: 400;
+}
+.download-option h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 767px) {
+    .download-option{
+        margin-top: 7%;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .section{
+        padding-bottom: 15%;
+    }
+    .section h1{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .section-text{
+        text-align: center;
+        margin-top: 8%;
+    }
+    .section-image{
+        margin-top: 17%;
+    }
+    .section p{
+        font-size: 28px;
+        margin-top: 5%;
+    }
+    .download-option {
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+    }
+    .download-images{
+        display: flex;
+        margin: 0 10px;
+    }
+    .download-images img{
+        width: 50%;
+    }
+  }
