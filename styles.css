@@ -2,13 +2,21 @@
     margin: 0%;
     padding: 0%;
 }
-body{
-    background-color: darkslategrey;
+
+.gradiant-overlay{
+    background: linear-gradient(180deg, #3C4545 0%, #26CCC8 100%);
+   width: 100%;
+   height: 100%;
+}
+body {
+    /* Set your background image here */
     background-image: url("images/pattern.png");
     background-repeat: no-repeat;
-    background-position: center top; /* Center horizontally at the bottom */
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
 }
+
 nav h3{
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
@@ -63,6 +71,9 @@ nav h3{
 @media screen and (max-width: 767px) {
     .section{
         padding-bottom: 15%;
+    }
+    .section-text{
+        text-align: center;
     }
     .section h1{
         font-size: 40px;
