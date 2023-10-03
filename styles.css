@@ -84,11 +84,16 @@ nav h6{
     .download-option{
         margin-top: 7%;
     }
+
   }
   
 @media screen and (max-width: 767px) {
     .section{
         padding-bottom: 15%;
+    }
+    .fit-jerk-text{
+        display: flex;
+        justify-content: center;
     }
     
     .section h1{
