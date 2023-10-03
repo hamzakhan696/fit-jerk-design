@@ -4,17 +4,18 @@
 }
 
 .gradiant-overlay{
-    background: linear-gradient(180deg, #3C4545 0%, #26CCC8 100%);
-   width: 100%;
-   height: 100%;
+   /* Set your background image here */
+   background-image: url("images/pattern.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
 }
 body {
-    /* Set your background image here */
-    background-image: url("images/pattern.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(180deg, #3C4545 0%, #26CCC8 100%);
+    width: 100%;
+    height: 100%;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
-    min-height: 100vh; /* Ensure the background covers the entire viewport height */
 }
 
 nav h3{
